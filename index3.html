@@ -1,59 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TodoList - UX</title>
     <link rel="stylesheet" href="./style.css">
-    <a href="./index4.html">next</a>
-   
+    <a href="./index4.html">Next</a>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="icon" href="./favicon.ico">
+
 </head>
+
 <body>
-    <div class="blur">
-        <h1>Tasks Lists</h1>
-<h2>Add List</h2>
 
-<h2 id="plus">+</h2>
+    <div class="qm blur1">
+        <b><Span class="q">Tasks</Span></b>
+        <span id="v">Lists</span>
+        <span id="b">
+        <i class="fas fa-plus-circle" style="color: rgba(252, 0, 0, 0.699);"></i>
+        Add List</span>
+    </div><br><br>
 
-<div class="box1">
-    <p class="text">Trip To Paris</p>
-    <hr class="hr1">
-    <p class="p"><del>Complete Task</del>
-     </p>
-    <input type="checkbox" name="" id="">
-    <label for="text">Pending Task</label>
-    <!-- <a class="btn1" href=""><i class="fa fa-plus-circle"></i></a> -->
-
-</div>
-
-<div class="box2">
-    <p class="text1">My Todo List</p>
-    <hr class="hr2">
-    <p class="p1"><del>Pending Task</del></p>
-    <input type="checkbox" name="" id="">
-    <label for="text">Pending Task</label>
-</div>
-
-<div class="box3">
-    <p class="text2">My Todo List</p>
-    <hr class="hr3">
-    <p class="p2"><del>Pending Task</del></p>
-    <input type="checkbox" name="" id="">
-    <label for="text">Pending Task</label>
-</div>
-</div>
-</div>
-<div>
-
-    <div class="box4">
-        <p id="p4">Add New List</p>
-        <input type="text">
-        <h5>Add</h5>
-    </div>  
-    
-    
-    
+    <div class="flex blur1">
+        <div class="bo">
+            <div class="trip">
+                Trip to Paris
+                <hr>
+            </div>
+            <div>
+                <p class="through">Completed Task</p><br>
+                <div class="ch">
+                    <input type="checkbox">
+                    <label for="checkbox" class="">Pending Task</label>
+                </div>
+            </div>
         </div>
+        <div class="bo">
+            <div class="my">
+                My Todo List
+                <hr>
+            </div>
+            <div>
+                <p class="through">Completed Task</p><br>
+                <div class="ch">
+                    <input type="checkbox">
+                    <label for="checkbox" class="">Pending Task</label>
+                </div>
+            </div>
+        </div>
+        <div class="bo">
+            <div class="my">
+                My Todo List
+                <hr>
+            </div>
+            <div>
+                <p class="through">Completed Task</p><br>
+                <div class="ch">
+                    <input type="checkbox">
+                    <label for="checkbox" class="">Pending Task</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="list">
+        <span id="lk">Add New List</span><br><br>
+
+        <input type="text" style="border: 1px solid red;"><br><br>
+        <button class="badd">ADD</button>
+        <div class="home" onclick="location.href='./index.html';">
+            <i class="fas fa-home"></i>
+        </div>
+        <div onclick="location.href='./index1.html';" style="cursor:pointer;" class="bac1">
+            <span class="back"><i class="fas fa-arrow-circle-left" style="color: rgb(204, 31, 31);" ></i></span>
+        </div>
+    </div>
+
+
+
+
+
 </body>
+
 </html>
