@@ -176,7 +176,7 @@ body {
     left: 10px;
     font-size: x-large;
 }
-a{
+#page{
     text-decoration: none;
     border-radius: 20px;
     background-color:green;
@@ -184,4 +184,9 @@ a{
     width: 63px;
     zoom: 115%;
     color: white;
+}
+
+#an{
+    text-decoration: none;
+    color: #eb8282;
 }
